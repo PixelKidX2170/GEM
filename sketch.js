@@ -16,7 +16,7 @@ Old=loadImage("Pictures/Oldwoman.png")
 }
 
 function setup() {
-  createCanvas(800,displayHeight);
+  createCanvas(windowWidth,windowHeight);
   Bud=createSprite(650,800,10,10)
   MayorNed=createSprite (100,400, 10,10)
   Oldie=createSprite (900,400, 10,10)
